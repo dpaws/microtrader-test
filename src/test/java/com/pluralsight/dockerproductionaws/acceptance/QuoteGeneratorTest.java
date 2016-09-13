@@ -1,4 +1,4 @@
-package com.pluralsight.dpaws.acceptance;
+package com.pluralsight.dockerproductionaws.acceptance;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.VertxOptions;
