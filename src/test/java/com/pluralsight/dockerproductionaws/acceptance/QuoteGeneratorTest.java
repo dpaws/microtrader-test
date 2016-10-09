@@ -34,7 +34,7 @@ public class QuoteGeneratorTest {
     List<JsonObject> bct = new ArrayList<>();
 
     @Before
-    public void before(TestContext text) throws UnknownHostException {
+    public void before(TestContext context) throws UnknownHostException {
         // Setup clustering
         ipAddress = Inet4Address.getLocalHost().getHostAddress();
         ClusterManager mgr = new HazelcastClusterManager();
