@@ -38,8 +38,8 @@
     </dependency>
     <dependency>
       <groupId>com.github.docker-production-aws</groupId>
-      <artifactId>portfolio-service</artifactId>
-      <version>0.1.0</version>
+      <artifactId>microtrader-common</artifactId>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>

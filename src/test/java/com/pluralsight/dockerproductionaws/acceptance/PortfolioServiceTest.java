@@ -2,10 +2,8 @@ package com.pluralsight.dockerproductionaws.acceptance;
 
 import com.pluralsight.dockerproductionaws.portfolio.Portfolio;
 import com.pluralsight.dockerproductionaws.portfolio.PortfolioService;
-import com.pluralsight.dockerproductionaws.trader.TraderUtils;
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
-import io.vertx.core.Future;
 import io.vertx.core.Vertx;
 import io.vertx.core.VertxOptions;
 import io.vertx.core.eventbus.EventBus;
@@ -27,11 +25,6 @@ import org.junit.runners.MethodSorters;
 
 import java.net.Inet4Address;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.List;
-
-import static com.jayway.awaitility.Awaitility.await;
-import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
