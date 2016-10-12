@@ -31,7 +31,6 @@ import static org.assertj.core.api.Assertions.assertThat;
  * Created by jmenga on 9/10/16.
  */
 @RunWith(VertxUnitRunner.class)
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class PortfolioServiceTest {
     Config config;
     VertxOptions options;
